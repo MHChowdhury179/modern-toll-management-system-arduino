@@ -59,32 +59,31 @@ A 10K potentiometer is used to adjust the LCD contrast.
 
 ### **Figure 1: Circuit Design of Modern Toll Management System**
 
-![Figure 1: Circuit Design of Modern Toll Management System](assets/circuit-images/circuit_design_modern_toll_management.png)
+![Figure 1: Circuit Design of Modern Toll Management System](circuit_design_modern_toll_management.png)
 
-**Description:**
 This figure shows the circuit connection of the modern toll management system using Arduino Uno, IR sensors, LCD display, jumper wires, and breadboard.
 
 ### **Figure 2: LCD Display Checking**
 
-![Figure 2: LCD Display Checking](assets/circuit-images/lcd_display_checking.png)
+![Figure 2: LCD Display Checking](lcd_display_checking.png)
 
-**Description:**
+
 This figure shows the LCD display during testing. The display shows the calculated toll amount in TAKA.
 
 ## **Output Images**
 
 ### **Figure 3: Serial Monitoring for Modern Toll Management System**
 
-![Figure 3: Serial Monitoring for Modern Toll Management System](assets/output-images/serial_monitoring_system.png)
+![Figure 3: Serial Monitoring for Modern Toll Management System](serial_monitoring_system.png)
 
-**Description:**
+
 This figure shows the serial monitoring process during code testing. Sensor values are checked in the serial monitor to verify the detection process.
 
 ### **Figure 4: Final Output of Modern Toll Management System**
 
-![Figure 4: Final Output of Modern Toll Management System](assets/output-images/final_output_modern_toll_management.png)
+![Figure 4: Final Output of Modern Toll Management System](final_output_modern_toll_management.png)
 
-**Description:**
+
 This figure shows the final prototype output of the modern toll management system. The system detects the vehicle wheel count and displays the toll fee on the LCD screen.
 
 ## **Working Principle**
@@ -110,36 +109,9 @@ After the vehicle pays the toll fee, the Arduino can be reset to start detecting
 The Arduino source code is stored in:
 
 ```text
-src/modern_toll_management_system.ino
+modern_toll_management_system_code.ino
 ```
 
-## **How to Run the Project**
-
-1. Open the Arduino IDE.
-2. Connect the Arduino Uno board to the computer.
-3. Open the file:
-
-```text
-src/modern_toll_management_system.ino
-```
-
-4. Select the correct board:
-
-```text
-Tools > Board > Arduino Uno
-```
-
-5. Select the correct port:
-
-```text
-Tools > Port
-```
-
-6. Upload the code to the Arduino Uno.
-7. Connect the IR sensors and LCD display according to the circuit connection.
-8. Open the Serial Monitor to check sensor values.
-9. Pass a vehicle model or object through the IR sensors.
-10. Observe the calculated toll fee on the LCD display.
 
 ## **Result**
 
