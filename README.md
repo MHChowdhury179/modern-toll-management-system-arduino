@@ -74,7 +74,7 @@ This figure shows the LCD display during testing. The display shows the calculat
 
 ### **Figure 3: Serial Monitoring for Modern Toll Management System**
 
-![Figure 3: Serial Monitoring for Modern Toll Management System](serial_monitoring_system.png)
+![Figure 3: Serial Monitoring for Modern Toll Management System](serial_monitoring_modern_toll_management.png)
 
 
 This figure shows the serial monitoring process during code testing. Sensor values are checked in the serial monitor to verify the detection process.
